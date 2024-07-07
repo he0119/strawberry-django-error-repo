@@ -11,9 +11,30 @@
 -e file:.
 asgiref==3.8.1
     # via django
+    # via strawberry-graphql-django
 django==5.0.6
+    # via django-js-asset
     # via home
+    # via strawberry-graphql-django
+django-js-asset==2.2.0
+    # via django-mptt
+django-mptt==0.16.0
+    # via home
+graphql-core==3.2.3
+    # via strawberry-graphql
+pillow==10.4.0
+    # via home
+python-dateutil==2.9.0.post0
+    # via strawberry-graphql
+six==1.16.0
+    # via python-dateutil
 sqlparse==0.5.0
     # via django
+strawberry-graphql==0.235.1
+    # via strawberry-graphql-django
+strawberry-graphql-django==0.46.1
+    # via home
+typing-extensions==4.12.2
+    # via strawberry-graphql
 tzdata==2024.1
     # via django
