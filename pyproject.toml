@@ -8,7 +8,6 @@ authors = [
 dependencies = [
     "django>=5.0.6",
     "strawberry-graphql-django>=0.46.1",
-    "django-mptt>=0.16.0",
     "pillow>=10.4.0",
     "psycopg[binary]>=3.2.1",
 ]

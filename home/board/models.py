@@ -1,5 +1,4 @@
 from django.db import models
-from mptt.models import MPTTModel, TreeForeignKey
 
 
 class Topic(models.Model):
@@ -13,7 +12,7 @@ class Topic(models.Model):
         verbose_name_plural = "话题"
 
 
-class Comment(MPTTModel):
+class Comment(models.Model):
     """评论"""
 
     id = models.AutoField("ID", primary_key=True, auto_created=True)
@@ -21,15 +20,7 @@ class Comment(MPTTModel):
     topic = models.ForeignKey(
         Topic, on_delete=models.CASCADE, related_name="comments", verbose_name="话题"
     )
-    parent = TreeForeignKey(
-        "self",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="children",
-        verbose_name="属于",
-    )
 
-    class Meta:  # type: ignore
+    class Meta:
         verbose_name = "评论"
         verbose_name_plural = "评论"

@@ -25,12 +25,7 @@
     "pk": 1,
     "fields": {
       "topic": 1,
-      "body": "测试评论一",
-      "parent": null,
-      "lft": 1,
-      "rght": 4,
-      "tree_id": 1,
-      "level": 0
+      "body": "测试评论一"
     }
   },
   {
@@ -38,12 +33,7 @@
     "pk": 2,
     "fields": {
       "topic": 1,
-      "body": "测试评论二",
-      "parent": null,
-      "lft": 1,
-      "rght": 2,
-      "tree_id": 2,
-      "level": 0
+      "body": "测试评论二"
     }
   },
   {
@@ -51,12 +41,7 @@
     "pk": 3,
     "fields": {
       "topic": 1,
-      "body": "评论测试评论一",
-      "parent": 1,
-      "lft": 2,
-      "rght": 3,
-      "tree_id": 1,
-      "level": 1
+      "body": "评论测试评论一"
     }
   },
   {
@@ -64,12 +49,7 @@
     "pk": 4,
     "fields": {
       "topic": 2,
-      "body": "测试评论关闭的话题",
-      "parent": null,
-      "lft": 1,
-      "rght": 2,
-      "tree_id": 3,
-      "level": 0
+      "body": "测试评论关闭的话题"
     }
   }
 ]

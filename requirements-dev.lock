@@ -13,13 +13,8 @@ asgiref==3.8.1
     # via django
     # via strawberry-graphql-django
 django==5.0.6
-    # via django-js-asset
     # via home
     # via strawberry-graphql-django
-django-js-asset==2.2.0
-    # via django-mptt
-django-mptt==0.16.0
-    # via home
 graphql-core==3.2.3
     # via strawberry-graphql
 pillow==10.4.0
